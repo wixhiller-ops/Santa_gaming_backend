@@ -7,8 +7,8 @@ const startServer = async () => {
     await connectDB();
     await seedAdmins();
 
-    app.listen(config.PORT, () => {
-        console.log(`🚀 Server running on port ${config.PORT}`);
+    app.listen(process.env.PORT, () => {
+        console.log(`🚀 Server running on port ${process.env.PORT}`);
     });
 };
 
