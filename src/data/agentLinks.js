@@ -49,12 +49,12 @@ export const AGENT_LINKS = [
   },
   {
     name: "Cashfrenzy",
-    url: "http://agentserver.cashfrenzy777.com:8003/admin",
+    url: "https://agentserver.cashfrenzy777.com/admin",
     imageKey: cashfrenzy,
   },
   {
     name: "Mr All In One",
-    url: "http://agentserver.mrallinone777.com:8003/admin/login",
+    url: "https://agentserver.mrallinone777.com/admin/login",
     imageKey: mrallinone,
   },
   {
